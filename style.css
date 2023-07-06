@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+body{
+    background-color: black;
+    background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20150413203820-cloud-time-management-tech.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock-container{
+ padding:25px;
+ border-radius: 20px;
+ box-shadow: 0px 0px 10px rgb(168, 158, 158);
+}
+#clock{
+    color: rgb(95, 95, 180);
+    font-size: 80px;
+}
+#date{
+    color: black;
+    font-size: 30px;
+}
